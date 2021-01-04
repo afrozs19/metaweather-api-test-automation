@@ -1,0 +1,9 @@
+shortuuid==1.0.1
+Faker==5.1.0
+pytest==5.4.3
+allure-pytest==2.8.19
+allure-python-commons==2.8.19
+jsonschema==3.2.0
+pdoc3==0.9.2
+pytest==5.4.3
+requests==2.24.0

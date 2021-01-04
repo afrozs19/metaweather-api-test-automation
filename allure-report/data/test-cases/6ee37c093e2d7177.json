@@ -1,0 +1,179 @@
+{
+  "uid" : "6ee37c093e2d7177",
+  "name" : "test_valid_lattlong_value",
+  "fullName" : "functional_tests.test_location_search.TestLocationSearch#test_valid_lattlong_value",
+  "historyId" : "48e9b53aa8cdd5268411177c03922c57",
+  "time" : {
+    "start" : 1609738955072,
+    "stop" : 1609738955644,
+    "duration" : 572
+  },
+  "description" : "Response time for the request is: 0.567135",
+  "descriptionHtml" : "<p>Response time for the request is: 0.567135</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_location_search_api_url",
+    "time" : {
+      "start" : 1609738951149,
+      "stop" : 1609738951149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1609738946351,
+      "stop" : 1609738946472,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "location_search_lattlong_valid",
+    "time" : {
+      "start" : 1609738955071,
+      "stop" : 1609738955072,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Response time for the request is: 0.567135",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f76644cd08fbea",
+      "name" : "log",
+      "source" : "1f76644cd08fbea.txt",
+      "type" : "text/plain",
+      "size" : 2798
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "LocationSearch"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "functional_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLocationSearch"
+  }, {
+    "name" : "host",
+    "value" : "4JK4X33"
+  }, {
+    "name" : "thread",
+    "value" : "24456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "functional_tests.test_location_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "9e21859bcbbae96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609738433519,
+          "stop" : 1609738434003,
+          "duration" : 484
+        }
+      }, {
+        "uid" : "2cdcfd40fcffdd77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609684578696,
+          "stop" : 1609684579439,
+          "duration" : 743
+        }
+      }, {
+        "uid" : "4d42575200d1e438",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609684089988,
+          "stop" : 1609684090509,
+          "duration" : 521
+        }
+      }, {
+        "uid" : "45a2a4c21da40804",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609678698467,
+          "stop" : 1609678698976,
+          "duration" : 509
+        }
+      }, {
+        "uid" : "db4a86696254a894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609677786491,
+          "stop" : 1609677787161,
+          "duration" : 670
+        }
+      } ]
+    },
+    "tags" : [ "LocationSearch", "Smoke" ]
+  },
+  "source" : "6ee37c093e2d7177.json",
+  "parameterValues" : [ ]
+}

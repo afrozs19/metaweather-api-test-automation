@@ -1,0 +1,4 @@
+[32mINFO    [0m TestLocationDay:test_location_day.py:81 **************************************** test_invalid_method_type ****************************************
+[32mINFO    [0m TestLocationDay:test_location_day.py:90 
+Actual Response:
+Response Code: 200

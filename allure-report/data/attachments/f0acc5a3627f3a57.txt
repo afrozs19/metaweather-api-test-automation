@@ -1,0 +1,4 @@
+[32mINFO    [0m TestLocationSearch:test_location_search.py:242 **************************************** test_invalid_method_type ****************************************
+[32mINFO    [0m TestLocationSearch:test_location_search.py:252 
+Actual Response:
+Response Code: 405

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "13a8a865afae77c6",
+  "name" : "test_valid_random_query_value",
+  "time" : {
+    "start" : 1609738954075,
+    "stop" : 1609738954578,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ee37c093e2d7177",
+  "name" : "test_valid_lattlong_value",
+  "time" : {
+    "start" : 1609738955072,
+    "stop" : 1609738955644,
+    "duration" : 572
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6c031b44032300e4",
+  "name" : "test_invalid_method_type",
+  "time" : {
+    "start" : 1609738947941,
+    "stop" : 1609738951135,
+    "duration" : 3194
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "62adb14b5d77fd18",
+  "name" : "test_valid_query_value",
+  "time" : {
+    "start" : 1609738952567,
+    "stop" : 1609738953547,
+    "duration" : 980
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6a298e9bb49515f1",
+  "name" : "test_valid_random_woeid",
+  "time" : {
+    "start" : 1609738951150,
+    "stop" : 1609738952560,
+    "duration" : 1410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a3acfc1c71eb74f",
+  "name" : "test_valid_query_subset_value",
+  "time" : {
+    "start" : 1609738953553,
+    "stop" : 1609738954068,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e84ab2c2a4a3ac9",
+  "name" : "test_valid_woeid_date",
+  "time" : {
+    "start" : 1609738946474,
+    "stop" : 1609738947935,
+    "duration" : 1461
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2a02240c85158d93",
+  "name" : "test_invalid_lattlong_value",
+  "time" : {
+    "start" : 1609738955651,
+    "stop" : 1609738956136,
+    "duration" : 485
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "859dd745aa20d5d4",
+  "name" : "test_invalid_method_type",
+  "time" : {
+    "start" : 1609738956147,
+    "stop" : 1609738956635,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4a02eb2d3c77b88",
+  "name" : "test_valid_random_lattlong_value",
+  "time" : {
+    "start" : 1609738954584,
+    "stop" : 1609738955065,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

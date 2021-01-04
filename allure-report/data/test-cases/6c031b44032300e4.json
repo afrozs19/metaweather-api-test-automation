@@ -1,0 +1,206 @@
+{
+  "uid" : "6c031b44032300e4",
+  "name" : "test_invalid_method_type",
+  "fullName" : "functional_tests.test_location_day.TestLocationDay#test_invalid_method_type",
+  "historyId" : "8dcb1358f2e3b303fc584754dc418294",
+  "time" : {
+    "start" : 1609738947941,
+    "stop" : 1609738951135,
+    "duration" : 3194
+  },
+  "description" : "Response time for the request is: 1.63269",
+  "descriptionHtml" : "<p>Response time for the request is: 1.63269</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+  "statusTrace" : "self = <functional_tests.test_location_day.TestLocationDay object at 0x0000023D2A157C40>, get_location_api_url = 'https://www.metaweather.com/api/location', get_valid_date = '2020/12/30'\nget_valid_woeid = 2295412\n\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.Smoke\n    @pytest.mark.xfail\n    def test_invalid_method_type(self, get_location_api_url,\n                                 get_valid_date, get_valid_woeid):\n        \"\"\"\n            Test to verify if appropriate error is logged when request on metaweather\n                api Location is made with invalid method type\n        \"\"\"\n    \n        self.log.info((\"*\" * 40) + \" test_invalid_method_type \" + (\"*\" * 40))\n    \n        # Reading from conftest value for woeid & date\n        woeid = get_valid_woeid\n        date =get_valid_date\n    \n        # Getting the response after making POST API call\n        response = requests.post(f\"{get_location_api_url}/{woeid}/{date}\")\n    \n        self.log.info(\n            \"\\nActual Response:\\nResponse Code: %s\", response.status_code)\n    \n        allure.dynamic.description(\n            \"Response time for the request is: \" +\n            str(response.elapsed.total_seconds()))\n    \n>       assert response.status_code == requests.codes.METHOD_NOT_ALLOWED\nE       AssertionError: assert 200 == 405\nE        +  where 200 = <Response [200]>.status_code\nE        +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\nE        +    where <lookup 'status_codes'> = requests.codes\n\nfunctional_tests\\test_location_day.py:97: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_valid_woeid",
+    "time" : {
+      "start" : 1609738946472,
+      "stop" : 1609738946472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_valid_date",
+    "time" : {
+      "start" : 1609738946472,
+      "stop" : 1609738946472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1609738946351,
+      "stop" : 1609738946472,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_location_api_url",
+    "time" : {
+      "start" : 1609738946472,
+      "stop" : 1609738946472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Response time for the request is: 1.63269",
+    "status" : "skipped",
+    "statusMessage" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+    "statusTrace" : "self = <functional_tests.test_location_day.TestLocationDay object at 0x0000023D2A157C40>, get_location_api_url = 'https://www.metaweather.com/api/location', get_valid_date = '2020/12/30'\nget_valid_woeid = 2295412\n\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.Smoke\n    @pytest.mark.xfail\n    def test_invalid_method_type(self, get_location_api_url,\n                                 get_valid_date, get_valid_woeid):\n        \"\"\"\n            Test to verify if appropriate error is logged when request on metaweather\n                api Location is made with invalid method type\n        \"\"\"\n    \n        self.log.info((\"*\" * 40) + \" test_invalid_method_type \" + (\"*\" * 40))\n    \n        # Reading from conftest value for woeid & date\n        woeid = get_valid_woeid\n        date =get_valid_date\n    \n        # Getting the response after making POST API call\n        response = requests.post(f\"{get_location_api_url}/{woeid}/{date}\")\n    \n        self.log.info(\n            \"\\nActual Response:\\nResponse Code: %s\", response.status_code)\n    \n        allure.dynamic.description(\n            \"Response time for the request is: \" +\n            str(response.elapsed.total_seconds()))\n    \n>       assert response.status_code == requests.codes.METHOD_NOT_ALLOWED\nE       AssertionError: assert 200 == 405\nE        +  where 200 = <Response [200]>.status_code\nE        +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\nE        +    where <lookup 'status_codes'> = requests.codes\n\nfunctional_tests\\test_location_day.py:97: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f1e4a67236aa4b2e",
+      "name" : "log",
+      "source" : "f1e4a67236aa4b2e.txt",
+      "type" : "text/plain",
+      "size" : 259
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "tag",
+    "value" : "LocationDay"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "functional_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location_day"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLocationDay"
+  }, {
+    "name" : "host",
+    "value" : "4JK4X33"
+  }, {
+    "name" : "thread",
+    "value" : "24456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "functional_tests.test_location_day"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "337435ee972bfd6b",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609738426996,
+          "stop" : 1609738429121,
+          "duration" : 2125
+        }
+      }, {
+        "uid" : "ef9cab9f22577c9f",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609684571304,
+          "stop" : 1609684573267,
+          "duration" : 1963
+        }
+      }, {
+        "uid" : "a1dff503dc409860",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609684086031,
+          "stop" : 1609684087402,
+          "duration" : 1371
+        }
+      }, {
+        "uid" : "97daeb748535775b",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609678693240,
+          "stop" : 1609678695092,
+          "duration" : 1852
+        }
+      }, {
+        "uid" : "52035eae814a2855",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 200 == 405\n +  where 200 = <Response [200]>.status_code\n +  and   405 = <lookup 'status_codes'>.METHOD_NOT_ALLOWED\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609677781450,
+          "stop" : 1609677783124,
+          "duration" : 1674
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail", "LocationDay", "Smoke" ]
+  },
+  "source" : "6c031b44032300e4.json",
+  "parameterValues" : [ ]
+}

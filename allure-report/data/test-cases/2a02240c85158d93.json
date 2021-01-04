@@ -1,0 +1,191 @@
+{
+  "uid" : "2a02240c85158d93",
+  "name" : "test_invalid_lattlong_value",
+  "fullName" : "functional_tests.test_location_search.TestLocationSearch#test_invalid_lattlong_value",
+  "historyId" : "41ce07c9e310d3bd94bab51d0287f44d",
+  "time" : {
+    "start" : 1609738955651,
+    "stop" : 1609738956136,
+    "duration" : 485
+  },
+  "description" : "Response time for the request is: 0.479466",
+  "descriptionHtml" : "<p>Response time for the request is: 0.479466</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+  "statusTrace" : "self = <functional_tests.test_location_search.TestLocationSearch object at 0x0000023D2A1F0370>, get_location_search_api_url = 'https://www.metaweather.com/api/location/search/'\nlocation_search_lattlong_invalid = 'abc, xyz'\n\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.Smoke\n    @pytest.mark.xfail\n    def test_invalid_lattlong_value(self, get_location_search_api_url,\n                                    location_search_lattlong_invalid):\n        \"\"\"\n            Test to verify if appropriate error is logged when request on metaweather\n                api Location Search, on passing invalid latitudes & longitudes.\n        \"\"\"\n        self.log.info(\n            (\"*\" * 40) + \" test_invalid_lattlong_value \" + (\"*\" * 40))\n    \n        # Reading from conftest value for lattlong parameter\n        # i.e. latitude & longitude values\n        lattlong = location_search_lattlong_invalid\n    \n        # Getting the response after making GET API call\n        response = ops.get(url=get_location_search_api_url,\n                           params={'lattlong': lattlong}\n                           )\n    \n        self.log.info(\n            \"\\nActual Response:\\nResponse Code: %s\", response.status_code)\n    \n        allure.dynamic.description(\n            \"Response time for the request is: \" +\n            str(response.elapsed.total_seconds()))\n    \n>       assert response.status_code == requests.codes.BAD_REQUEST\nE       AssertionError: assert 500 == 400\nE        +  where 500 = <Response [500]>.status_code\nE        +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\nE        +    where <lookup 'status_codes'> = requests.codes\n\nfunctional_tests\\test_location_search.py:232: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "location_search_lattlong_invalid",
+    "time" : {
+      "start" : 1609738955650,
+      "stop" : 1609738955650,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_location_search_api_url",
+    "time" : {
+      "start" : 1609738951149,
+      "stop" : 1609738951149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1609738946351,
+      "stop" : 1609738946472,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Response time for the request is: 0.479466",
+    "status" : "skipped",
+    "statusMessage" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+    "statusTrace" : "self = <functional_tests.test_location_search.TestLocationSearch object at 0x0000023D2A1F0370>, get_location_search_api_url = 'https://www.metaweather.com/api/location/search/'\nlocation_search_lattlong_invalid = 'abc, xyz'\n\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.Smoke\n    @pytest.mark.xfail\n    def test_invalid_lattlong_value(self, get_location_search_api_url,\n                                    location_search_lattlong_invalid):\n        \"\"\"\n            Test to verify if appropriate error is logged when request on metaweather\n                api Location Search, on passing invalid latitudes & longitudes.\n        \"\"\"\n        self.log.info(\n            (\"*\" * 40) + \" test_invalid_lattlong_value \" + (\"*\" * 40))\n    \n        # Reading from conftest value for lattlong parameter\n        # i.e. latitude & longitude values\n        lattlong = location_search_lattlong_invalid\n    \n        # Getting the response after making GET API call\n        response = ops.get(url=get_location_search_api_url,\n                           params={'lattlong': lattlong}\n                           )\n    \n        self.log.info(\n            \"\\nActual Response:\\nResponse Code: %s\", response.status_code)\n    \n        allure.dynamic.description(\n            \"Response time for the request is: \" +\n            str(response.elapsed.total_seconds()))\n    \n>       assert response.status_code == requests.codes.BAD_REQUEST\nE       AssertionError: assert 500 == 400\nE        +  where 500 = <Response [500]>.status_code\nE        +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\nE        +    where <lookup 'status_codes'> = requests.codes\n\nfunctional_tests\\test_location_search.py:232: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16c730b26bf1fb3c",
+      "name" : "log",
+      "source" : "16c730b26bf1fb3c.txt",
+      "type" : "text/plain",
+      "size" : 276
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "LocationSearch"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "functional_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLocationSearch"
+  }, {
+    "name" : "host",
+    "value" : "4JK4X33"
+  }, {
+    "name" : "thread",
+    "value" : "24456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "functional_tests.test_location_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2c32f6078472bbbe",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609738434008,
+          "stop" : 1609738434871,
+          "duration" : 863
+        }
+      }, {
+        "uid" : "6c15a18418e3aed1",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609684579447,
+          "stop" : 1609684579946,
+          "duration" : 499
+        }
+      }, {
+        "uid" : "54b91efc7bbc481f",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609684090514,
+          "stop" : 1609684091011,
+          "duration" : 497
+        }
+      }, {
+        "uid" : "c81d08d165ca6cf",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609678698982,
+          "stop" : 1609678699977,
+          "duration" : 995
+        }
+      }, {
+        "uid" : "c6974a6e03b7b703",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = <lookup 'status_codes'>.BAD_REQUEST\n +    where <lookup 'status_codes'> = requests.codes",
+        "time" : {
+          "start" : 1609677787169,
+          "stop" : 1609677787673,
+          "duration" : 504
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail", "LocationSearch", "Smoke" ]
+  },
+  "source" : "2a02240c85158d93.json",
+  "parameterValues" : [ ]
+}

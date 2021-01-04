@@ -1,0 +1,5 @@
+[32mINFO    [0m TestLocationSearch:test_location_search.py:145 **************************************** test_valid_random_lattlong_value ****************************************
+[32mINFO    [0m TestLocationSearch:test_location_search.py:152 Random Latitude & Longitude selected for test: 52.21099,7.02238
+[32mINFO    [0m TestLocationSearch:test_location_search.py:159 
+Actual Response:
+Response Code: 200

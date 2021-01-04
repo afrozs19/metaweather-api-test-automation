@@ -1,0 +1,146 @@
+{
+	"55.9533, -3.1883": [
+		{
+			"distance": 905,
+			"title": "Edinburgh",
+			"location_type": "City",
+			"woeid": 19344,
+			"latt_long": "55.954151,-3.202770"
+		},
+		{
+			"distance": 59527,
+			"title": "Dundee",
+			"location_type": "City",
+			"woeid": 18637,
+			"latt_long": "56.475761,-2.9756"
+		},
+		{
+			"distance": 66520,
+			"title": "Glasgow",
+			"location_type": "City",
+			"woeid": 21125,
+			"latt_long": "55.857800,-4.242510"
+		},
+		{
+			"distance": 147007,
+			"title": "Newcastle",
+			"location_type": "City",
+			"woeid": 30079,
+			"latt_long": "54.977940,-1.611620"
+		},
+		{
+			"distance": 148942,
+			"title": "Aberdeen",
+			"location_type": "City",
+			"woeid": 10243,
+			"latt_long": "57.153820,-2.106790"
+		},
+		{
+			"distance": 162142,
+			"title": "Sunderland",
+			"location_type": "City",
+			"woeid": 36615,
+			"latt_long": "54.900120,-1.408480"
+		},
+		{
+			"distance": 196914,
+			"title": "Middlesbrough",
+			"location_type": "City",
+			"woeid": 28869,
+			"latt_long": "54.573051,-1.237630"
+		},
+		{
+			"distance": 230174,
+			"title": "Belfast",
+			"location_type": "City",
+			"woeid": 44544,
+			"latt_long": "54.595291,-5.934520"
+		},
+		{
+			"distance": 236742,
+			"title": "Blackpool",
+			"location_type": "City",
+			"woeid": 12903,
+			"latt_long": "53.825069,-3.020750"
+		},
+		{
+			"distance": 244083,
+			"title": "Preston",
+			"location_type": "City",
+			"woeid": 32566,
+			"latt_long": "53.774281,-2.707900"
+		}
+	],
+	"19.0760, 72.8777": [
+		{
+			"distance": 192,
+			"title": "Mumbai",
+			"location_type": "City",
+			"woeid": 12586539,
+			"latt_long": "19.076191,72.875877"
+		},
+		{
+			"distance": 118773,
+			"title": "Pune",
+			"location_type": "City",
+			"woeid": 2295412,
+			"latt_long": "18.53611,73.85218"
+		},
+		{
+			"distance": 232195,
+			"title": "Surat",
+			"location_type": "City",
+			"woeid": 2295405,
+			"latt_long": "21.165131,72.836182"
+		},
+		{
+			"distance": 440568,
+			"title": "Ahmedabad",
+			"location_type": "City",
+			"woeid": 2295402,
+			"latt_long": "23.030199,72.569870"
+		},
+		{
+			"distance": 611577,
+			"title": "Hyderabad",
+			"location_type": "City",
+			"woeid": 2295414,
+			"latt_long": "17.508829,78.434578"
+		},
+		{
+			"distance": 847887,
+			"title": "Bangalore",
+			"location_type": "City",
+			"woeid": 2295420,
+			"latt_long": "12.955800,77.620979"
+		},
+		{
+			"distance": 883272,
+			"title": "Karachi",
+			"location_type": "City",
+			"woeid": 2211096,
+			"latt_long": "24.889780,67.028511"
+		},
+		{
+			"distance": 1032119,
+			"title": "Chennai",
+			"location_type": "City",
+			"woeid": 2295424,
+			"latt_long": "13.05939,80.245667"
+		},
+		{
+			"distance": 1145925,
+			"title": "New Delhi",
+			"location_type": "City",
+			"woeid": 28743736,
+			"latt_long": "28.643999,77.091003"
+		},
+		{
+			"distance": 1393742,
+			"title": "Lahore",
+			"location_type": "City",
+			"woeid": 2211177,
+			"latt_long": "31.549910,74.327301"
+		}
+	]
+}

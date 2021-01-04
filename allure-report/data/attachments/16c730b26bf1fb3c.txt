@@ -1,0 +1,4 @@
+[32mINFO    [0m TestLocationSearch:test_location_search.py:213 **************************************** test_invalid_lattlong_value ****************************************
+[32mINFO    [0m TestLocationSearch:test_location_search.py:225 
+Actual Response:
+Response Code: 500

@@ -1,0 +1,176 @@
+{
+  "uid" : "f4a02eb2d3c77b88",
+  "name" : "test_valid_random_lattlong_value",
+  "fullName" : "functional_tests.test_location_search.TestLocationSearch#test_valid_random_lattlong_value",
+  "historyId" : "f7def6248639ba018b6e76720650c563",
+  "time" : {
+    "start" : 1609738954584,
+    "stop" : 1609738955065,
+    "duration" : 481
+  },
+  "description" : "Response time for the request is: 0.475895",
+  "descriptionHtml" : "<p>Response time for the request is: 0.475895</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_location_search_api_url",
+    "time" : {
+      "start" : 1609738951149,
+      "stop" : 1609738951149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_random_latt_long",
+    "time" : {
+      "start" : 1609738954584,
+      "stop" : 1609738954584,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1609738946351,
+      "stop" : 1609738946472,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Response time for the request is: 0.475895",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6101774c7853b26",
+      "name" : "log",
+      "source" : "c6101774c7853b26.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "LocationSearch"
+  }, {
+    "name" : "parentSuite",
+    "value" : "functional_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLocationSearch"
+  }, {
+    "name" : "host",
+    "value" : "4JK4X33"
+  }, {
+    "name" : "thread",
+    "value" : "24456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "functional_tests.test_location_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "37c68c2d7f3be62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609738432715,
+          "stop" : 1609738433512,
+          "duration" : 797
+        }
+      }, {
+        "uid" : "889b38b66bfdf8e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609684578190,
+          "stop" : 1609684578689,
+          "duration" : 499
+        }
+      }, {
+        "uid" : "4c5ec603cdfc42c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609684089447,
+          "stop" : 1609684089981,
+          "duration" : 534
+        }
+      }, {
+        "uid" : "f9d33a0282052839",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609678697903,
+          "stop" : 1609678698461,
+          "duration" : 558
+        }
+      }, {
+        "uid" : "b377460630eab53c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609677785967,
+          "stop" : 1609677786481,
+          "duration" : 514
+        }
+      } ]
+    },
+    "tags" : [ "LocationSearch" ]
+  },
+  "source" : "f4a02eb2d3c77b88.json",
+  "parameterValues" : [ ]
+}

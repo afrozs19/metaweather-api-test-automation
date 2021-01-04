@@ -1,0 +1,4 @@
+[32mINFO    [0m TestLocationDay:test_location_day.py:45 **************************************** test_valid_woeid_date ****************************************
+[32mINFO    [0m TestLocationDay:test_location_day.py:60 
+Actual Response:
+Response Code: 200

@@ -1,0 +1,26 @@
+{
+	"Berlin": [{
+		"title": "Berlin",
+		"location_type": "City",
+		"woeid": 638242,
+		"latt_long": "52.516071,13.376980"
+	}],
+	"London": [{
+		"title": "London",
+		"location_type": "City",
+		"woeid": 44418,
+		"latt_long": "51.506321,-0.12714"
+	}],
+	"Pune": [{
+		"title": "Pune",
+		"location_type": "City",
+		"woeid": 2295412,
+		"latt_long": "18.53611,73.85218"
+	}],
+	"Singapore": [{
+		"title": "Singapore",
+		"location_type": "City",
+		"woeid": 1062617,
+		"latt_long": "1.293780,103.853256"
+	}]
+}

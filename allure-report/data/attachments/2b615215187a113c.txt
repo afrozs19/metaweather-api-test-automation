@@ -1,0 +1,8 @@
+[32mINFO    [0m TestLocationSearch:test_location_search.py:46 **************************************** test_valid_query_value ****************************************
+[32mINFO    [0m TestLocationSearch:test_location_search.py:54 
+Expected Response:
+ [{'title': 'Berlin', 'location_type': 'City', 'woeid': 638242, 'latt_long': '52.516071,13.376980'}]
+[32mINFO    [0m TestLocationSearch:test_location_search.py:61 
+Actual Response:
+Response Code: 200 
+Response Body: [{'title': 'Berlin', 'location_type': 'City', 'woeid': 638242, 'latt_long': '52.516071,13.376980'}]

@@ -1,0 +1,5 @@
+[32mINFO    [0m TestLocationDay:test_location_day.py:114 **************************************** test_valid_random_woeid ****************************************
+[32mINFO    [0m TestLocationDay:test_location_day.py:120 Random city selected for test: Iquitos
+[32mINFO    [0m TestLocationDay:test_location_day.py:139 
+Actual Response:
+Response Code: 404

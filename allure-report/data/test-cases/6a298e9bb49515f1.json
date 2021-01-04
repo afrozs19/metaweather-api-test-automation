@@ -1,0 +1,225 @@
+{
+  "uid" : "6a298e9bb49515f1",
+  "name" : "test_valid_random_woeid",
+  "fullName" : "functional_tests.test_location_day.TestLocationDay#test_valid_random_woeid",
+  "historyId" : "ec92c8509c8b275643d0b413dfc7717b",
+  "time" : {
+    "start" : 1609738951150,
+    "stop" : 1609738952560,
+    "duration" : 1410
+  },
+  "description" : "Response time for the request is: 0.885869",
+  "descriptionHtml" : "<p>Response time for the request is: 0.885869</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_valid_woeid",
+    "time" : {
+      "start" : 1609738946472,
+      "stop" : 1609738946472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_random_city",
+    "time" : {
+      "start" : 1609738951149,
+      "stop" : 1609738951149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_location_search_api_url",
+    "time" : {
+      "start" : 1609738951149,
+      "stop" : 1609738951149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_valid_date",
+    "time" : {
+      "start" : 1609738946472,
+      "stop" : 1609738946472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1609738946351,
+      "stop" : 1609738946472,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_location_api_url",
+    "time" : {
+      "start" : 1609738946472,
+      "stop" : 1609738946472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Response time for the request is: 0.885869",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f7afdd55a1f2129",
+      "name" : "log",
+      "source" : "8f7afdd55a1f2129.txt",
+      "type" : "text/plain",
+      "size" : 358
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "LocationDay"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "functional_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location_day"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLocationDay"
+  }, {
+    "name" : "host",
+    "value" : "4JK4X33"
+  }, {
+    "name" : "thread",
+    "value" : "24456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "functional_tests.test_location_day"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "a4a999b7e0119db5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609738429148,
+          "stop" : 1609738430350,
+          "duration" : 1202
+        }
+      }, {
+        "uid" : "565be8ef6ab11892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609684573285,
+          "stop" : 1609684575994,
+          "duration" : 2709
+        }
+      }, {
+        "uid" : "da217c1cc61db961",
+        "status" : "broken",
+        "statusDetails" : "TypeError: list indices must be integers or slices, not str",
+        "time" : {
+          "start" : 1609684087417,
+          "stop" : 1609684087938,
+          "duration" : 521
+        }
+      }, {
+        "uid" : "5841f520b96c4d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609678695110,
+          "stop" : 1609678696210,
+          "duration" : 1100
+        }
+      }, {
+        "uid" : "dd47a014abd10039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609677783138,
+          "stop" : 1609677784265,
+          "duration" : 1127
+        }
+      } ]
+    },
+    "tags" : [ "LocationDay", "Smoke" ]
+  },
+  "source" : "6a298e9bb49515f1.json",
+  "parameterValues" : [ ]
+}
