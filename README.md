@@ -51,11 +51,11 @@ pytest -v -m LocationDay
     ```
 - Allure Overview screenshots
 
-![alt text](Reporting Screenshots/overview page.png)
+![alt text](Reporting Screenshots/1.Overview Page.png)
 
 - To get the trends on the dashboard, copy the history folder from previously generated allure reports folder to the allure directory(generated after pytest command).
 
-![alt text](Reporting Screenshots/Report Graphs - Trend 1.png)
+![alt text]("Reporting Screenshots/4.Report Graphs - Trends 1.png")
 
 ### Project Structure
 
