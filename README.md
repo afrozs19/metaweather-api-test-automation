@@ -49,7 +49,10 @@ pytest -v -m LocationDay
     cd ${path where report folder is to be stored}
     allure generate "/path/to/reportfolder" --clean && allure open
     ```
+- Allure Overview screenshots
+![alt text](Reporting Screenshots/overview page.png)
 - To get the trends on the dashboard, copy the history folder from previously generated allure reports folder to the allure directory(generated after pytest command).
+![alt text](Reporting Screenshots/Report Graphs - Trend 1.png)
 
 ### Project Structure
 
